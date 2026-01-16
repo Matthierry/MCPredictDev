@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MC PREDICT - FAQs</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Proxima+Nova:wght@400;700&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="header">
+    <img src="images/mcpredcirclebg.png" alt="MC Predict Logo">
+    <h1>MC PREDICT</h1>
+  </div>
+
+  <nav>
+    <a href="/index">HOME</a>
+    <a href="/hda-value">MATCH RESULT</a>
+    <a href="/uo-value">UNDER/OVER 2.5</a>
+    <a href="/lucky-dip">LUCKY DIP</a>
+    <a href="/historical">HISTORICAL DATA</a>
+    <a href="/faqs" class="active">FAQs</a>
+  </nav>
+
+  <section class="hero hero--left">
+    <h2>Frequently Asked Questions</h2>
+
+    <div class="faq">
+      <h3>How does the model work?</h3>
+      <p>
+        The model has been in development since 2015 and is now in its fourth version. It analyses a team’s form to predict how they will perform against an opponent, using multiple layered methods. These include Poisson distribution theory, deviation analysis, performance against historical odds, opponent strength, and home/away advantages. All calculations are based on key performance data such as goals, shots, and shots on target for and against.
+      </p>
+    </div>
+
+    <div class="faq">
+      <h3>What is “value”?</h3>
+      <p>
+        A value selection is when the model identifies an outcome as having a greater chance of occurring than implied by the bookmaker’s odds. While no model is perfect, the idea is that—over time—these opportunities may prove profitable when consistently backed at the odds provided.
+      </p>
+    </div>
+
+    <div class="faq">
+      <h3>What does “higher chance” mean?</h3>
+      <p>
+        Higher chance selections are simply the model’s ranking of outcomes by probability, from most to least likely. These rankings are based purely on the model’s calculations, without considering bookmaker odds.
+      </p>
+    </div>
+
+    <div class="faq">
+      <h3>Profit &amp; Loss</h3>
+      <p>
+        The profit and loss records shown on the website are based only on fixtures played between Friday and Monday. While the model does generate predictions for midweek fixtures, these results are not included in the official profit/loss records.
+      </p>
+    </div>
+
+    <div class="faq">
+      <h3>How are odds calculated?</h3>
+      <p>
+        The model works in probability percentages, which are first converted into decimal odds. For clarity and to align with UK preferences, these decimal odds are then converted into fractional odds. This conversion may cause small discrepancies when reviewing historical results, but both decimal and fractional odds are provided to ensure transparency.
+      </p>
+      <p>
+        The odds displayed are based on the bookmakers’ average prices on Friday afternoons, sourced from Joseph Buchdahl (@12Xpert) via 
+        <a href="https://www.football-data.co.uk" target="_blank">football-data.co.uk</a>. 
+        Please note that better odds may be available elsewhere, so keep this in mind when reviewing results.
+      </p>
+    </div>
+  </section>
+</body>
+</html>
